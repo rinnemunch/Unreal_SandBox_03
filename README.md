@@ -30,3 +30,37 @@ As soon as the player enters the trigger zone, the **jump scare mesh appears**, 
 After a short delay, the mesh vanishes, leaving behind a perfectly timed, cinematic horror moment.
 
 ---
+
+# ⚔️ Project 2 – Enemy AI Follow, Wait, and Strike System
+
+This project builds a **distance-aware enemy AI** in **Unreal Engine 5.5.4** using Behavior Trees and Blueprint-driven logic.
+The enemy tracks the player, pauses when out of range, and launches real melee attacks only when close enough to hit — all without relying on complex perception systems.
+
+---
+
+## 🖼️ Preview
+
+![Enemy AI Preview](Media/EnemyAI.gif)
+
+---
+
+## 🧱 Features
+
+- **BP_Enemy** built from the Third Person Character template
+- **AIC_Enemy** using `DetourCrowdAIController` for smoother navigation
+- **BT_Enemy + BB_Enemy** controlling follow, wait, and attack flow
+- **Detector Sphere** triggers player acquisition
+- **Hand Collision Sphere** deals melee damage during attacks
+- **Root-motion attack montages** selected and played randomly
+- **BTT_Attack task** fires clean Blueprint-driven attack logic
+- **Player health system** with damage, death checks, and regen-safe updates
+- **WBP_HealthBar** anchored to screen with live health percentage
+- **Ragdoll death flow**, input lock, UI swap, and automatic level restart
+- Clean, modular Blueprint setup ideal for expansion (perception, combos, stats, etc.)
+
+---
+
+## 🚀 Result
+
+Enemies **detect**, **follow**, **pause**, and **attack** the player with responsive, readable behavior.
+The system includes **health UI**, **damage logic**, and a complete **death/restart loop**, creating a fully functional combat-ready AI suitable for prototypes or full gameplay systems.
