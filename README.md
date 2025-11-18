@@ -40,7 +40,7 @@ The enemy tracks the player, pauses when out of range, and launches real melee a
 
 ## 🖼️ Preview
 
-![Enemy AI Preview](Media/EnemyAI.gif)
+![Enemy AI Preview](Media/AI.gif)
 
 ---
 
