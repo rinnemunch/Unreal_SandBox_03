@@ -64,3 +64,35 @@ The enemy tracks the player, pauses when out of range, and launches real melee a
 
 Enemies **detect**, **follow**, **pause**, and **attack** the player with responsive, readable behavior.
 The system includes **health UI**, **damage logic**, and a complete **death/restart loop**, creating a fully functional combat-ready AI suitable for prototypes or full gameplay systems.
+
+---
+
+# 🌌 Project 3 – Teleporting Wander AI System
+
+This project creates a **wandering NPC that randomly teleports** across the level using **Unreal Engine 5.5.4**, Blueprint logic, Behavior Trees, and Niagara VFX. The NPC walks naturally like a standard roaming AI but occasionally **vanishes and reappears** at new NavMesh points using custom teleport logic and stylized visual effects.
+
+---
+
+## 🖼️ Preview
+
+![Teleporting NPC Preview](Media/TeleportNPC.gif)
+
+---
+
+## 🧱 Features
+
+- **BP_NPC** upgraded with unlit black body material and emissive eye material
+- **M_Skin** for silhouette-style shading
+- **M_Eyes** for bright purple emissive glow
+- **NS_Aura** ambient Niagara system that follows the NPC
+- **NS_TeleportEffect** burst VFX used for vanish and reappear moments
+- **Scaled mesh** for tall, Enderman-inspired proportions
+- **BP_Spawner** that spawns the NPC with initial teleport VFX
+- **BTT_Teleport** task handling teleport chance, vanish effect, location update, and reappear effect
+- Works seamlessly with the existing **wander behavior** from BT_NPC
+
+---
+
+## 🚀 Result
+
+The NPC **wanders**, **pauses**, and **teleports** across the level with smooth transitions. Disappear and reappear effects sell the movement style, creating an unpredictable and visually striking roaming character suitable for horror, fantasy, or experimental gameplay.
