@@ -108,7 +108,7 @@ The prompt appears when the player enters a detection radius, stays perfectly re
 
 ## 🖼️ Preview
 
-![Interaction Prompt Preview](Media/Prompt.gif)
+![Interaction Prompt Preview](Media/1.gif)
 
 ---
 
