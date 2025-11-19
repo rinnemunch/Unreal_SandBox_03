@@ -128,3 +128,39 @@ The prompt appears when the player enters a detection radius, stays perfectly re
 
 As the player approaches an interactive object, the floating prompt **appears**, stays **perfectly oriented toward the camera**, and then **vanishes** once the player steps away.
 This creates a polished, universal interaction indicator that can be added to any object across your project.
+
+---
+
+# 🔥 Project 5 – Fire Hazard Damage, Burning, and Death System
+
+This project builds a **fully-featured fire hazard system** in **Unreal Engine 5.5.4**, complete with ignition zones, damage-over-time, lingering burn effects, on-player fire VFX, and a clean ragdoll death sequence.
+The player ignites the instant they touch the flames, continues taking damage even after stepping out, and collapses into a fully simulated ragdoll when health reaches zero.
+
+---
+
+## 🖼️ Preview
+
+![Fire Hazard System](Media/5.gif)
+
+---
+
+## 🧱 Features
+
+- **Blueprint fire actor** converted from `P_Fire` particle system
+- **Sphere Collision** ignition zone for detecting player overlap
+- **FireFX particle system** attached to the character’s `spine_01` socket
+- **Burning state logic** using `isBurning`, `BurnDuration`, and `PlayerHealth` variables
+- **Burst damage timer** that applies fire damage while inside the hazard
+- **Lingering burn timer** that continues applying reduced damage after exit
+- **Automatic FireFX activation/deactivation** based on burn state
+- **Clean death function** using ragdoll simulation and input disable
+- Modular Blueprint setup ideal for reuse across hazards and environments
+
+---
+
+## 🚀 Result
+
+As soon as the player steps into the flames, they ignite instantly, take regular burst damage, and remain aflame even after escaping the hazard.
+Once health reaches zero, the character collapses into a physics-driven ragdoll, completing a polished and fully reactive fire danger system.
+
+---
