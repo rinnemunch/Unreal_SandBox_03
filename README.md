@@ -96,3 +96,35 @@ This project creates a **wandering NPC that randomly teleports** across the leve
 ## 🚀 Result
 
 The NPC **wanders**, **pauses**, and **teleports** across the level with smooth transitions. Disappear and reappear effects sell the movement style, creating an unpredictable and visually striking roaming character suitable for horror, fantasy, or experimental gameplay.
+
+---
+
+# 🎮 Project 4 – Floating Interaction Prompt System
+
+This project adds a **camera-facing floating interaction prompt** to any object in **Unreal Engine 5.5.4** using simple Blueprint logic.
+The prompt appears when the player enters a detection radius, stays perfectly readable from all angles, and cleanly disappears when the player leaves — ideal for pickups, doors, NPCs, and world objects.
+
+---
+
+## 🖼️ Preview
+
+![Interaction Prompt Preview](Media/Prompt.gif)
+
+---
+
+## 🧱 Features
+
+- Convert any placed prop into a Blueprint actor
+- **Sphere Collision** used as a proximity trigger
+- **Widget Component** displaying `WBP_Prompt`
+- Text-based prompt with optional outline and icon
+- Widget set to **Screen Space** for automatic camera-facing behavior
+- **Overlap logic** shows and hides the prompt when player enters/exits
+- Clean, reusable Blueprint setup for all interactable objects
+
+---
+
+## 🚀 Result
+
+As the player approaches an interactive object, the floating prompt **appears**, stays **perfectly oriented toward the camera**, and then **vanishes** once the player steps away.
+This creates a polished, universal interaction indicator that can be added to any object across your project.
