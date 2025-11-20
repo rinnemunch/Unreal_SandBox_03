@@ -164,3 +164,41 @@ As soon as the player steps into the flames, they ignite instantly, take regular
 Once health reaches zero, the character collapses into a physics-driven ragdoll, completing a polished and fully reactive fire danger system.
 
 ---
+
+# 🎥 Project 6 – Triggered Cutscene Camera Sequence System
+
+This project creates a **cinematic triggered cutscene** in **Unreal Engine 5.5.4** using a Level Sequence, CineCamera, and Blueprint logic.
+When the player enters a trigger zone, gameplay input locks, the camera switches to a Sequencer-driven shot, and control returns automatically once the cutscene finishes.
+
+---
+
+## 🖼️ Preview
+
+![Cutscene Preview](Media/6.gif)
+
+---
+
+## 🧱 Features
+
+- **BP_Boss** placeholder character derived from `BP_ThirdPersonCharacter`
+- **CineCameraActor** positioned and animated inside a Level Sequence
+- **Three-keyframe cinematic camera move** showcasing the boss
+- **Trigger Volume** activating the cutscene via player overlap
+- **Cast To BP_ThirdPersonCharacter** to ensure player-only activation
+- **Do Once** node to prevent replay loops
+- **Disable Input → Play Sequence → Enable Input** flow
+- **Get Duration** node for timing sync with sequence length
+- Clean, minimal Level Blueprint setup
+
+---
+
+## 🚀 Result
+
+When the player walks into the trigger zone:
+
+- Player input locks
+- CineCamera takes over
+- The shot sequence plays start to finish
+- Control is restored the moment the cutscene ends
+
+This creates a polished gameplay introduction ideal for boss reveals, environment showcases, puzzle hints, or any in-game cinematic moment.
