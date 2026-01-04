@@ -14,7 +14,8 @@ Each entry includes a **Blueprint workflow**, **GIF preview**, and **feature bre
 
 ---
 
-# 💀 Project 1 – Triggered Jump Scare System
+# 💀 Project 1 – Triggered Jump Scare System 
+**[Medium Guide](https://medium.com/@fulton_shaun/how-to-create-a-triggered-jump-scare-in-unreal-engine-5-cac5687edf52)** • **[YouTube Tutorial](https://www.youtube.com/watch?v=9ttzdLqb0oM)**
 
 This project demonstrates how to build a **cinematic triggered jump scare** in **Unreal Engine 5.5.4** using Blueprints only.
 It combines sound, animation, and visibility logic into one clean event that activates the moment a player enters a trigger zone — delivering a sharp, timed horror effect without any C++.
@@ -47,7 +48,8 @@ After a short delay, the mesh vanishes, leaving behind a perfectly timed, cinema
 
 ---
 
-# ⚔️ Project 2 – Enemy AI Follow, Wait, and Strike System
+# ⚔️ Project 2 – Enemy AI Follow, Wait, and Strike System 
+**[Medium Guide](https://medium.com/@fulton_shaun/create-an-enemy-ai-that-follows-waits-and-strikes-using-behavior-trees-365bda702c96?postPublishedType=initial)** • **[YouTube Tutorial](https://www.youtube.com/watch?v=ZICaWSZ21VY&t=144s)**
 
 This project builds a **distance-aware enemy AI** in **Unreal Engine 5.5.4** using Behavior Trees and Blueprint-driven logic.
 The enemy tracks the player, pauses when out of range, and launches real melee attacks only when close enough to hit — all without relying on complex perception systems.
