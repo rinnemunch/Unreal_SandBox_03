@@ -86,6 +86,7 @@ The system includes **health UI**, **damage logic**, and a complete **death/rest
 ---
 
 # 🌌 Project 3 – Teleporting Wander AI System
+**[Medium Guide](https://medium.com/@fulton_shaun/how-to-create-a-teleporting-npc-in-unreal-engine-5-enderman-style-movement-ff216f36d140)** • **[YouTube Tutorial](https://www.youtube.com/watch?v=S_5Gg4rSV2o&t=1s)**
 
 This project creates a **wandering NPC that randomly teleports** across the level using **Unreal Engine 5.5.4**, Blueprint logic, Behavior Trees, and Niagara VFX. The NPC walks naturally like a standard roaming AI but occasionally **vanishes and reappears** at new NavMesh points using custom teleport logic and stylized visual effects.
 
@@ -118,6 +119,7 @@ The NPC **wanders**, **pauses**, and **teleports** across the level with smooth 
 ---
 
 # 🎮 Project 4 – Floating Interaction Prompt System
+**[Medium Guide](https://medium.com/@fulton_shaun/unreal-engine-5-floating-interaction-prompt-system-528e892a3f7e)** • **[YouTube Tutorial](https://www.youtube.com/watch?v=E9fZErlzS8Q)**
 
 This project adds a **camera-facing floating interaction prompt** to any object in **Unreal Engine 5.5.4** using simple Blueprint logic.
 The prompt appears when the player enters a detection radius, stays perfectly readable from all angles, and cleanly disappears when the player leaves — ideal for pickups, doors, NPCs, and world objects.
@@ -150,6 +152,7 @@ This creates a polished, universal interaction indicator that can be added to an
 ---
 
 # 🔥 Project 5 – Fire Hazard Damage, Burning, and Death System
+**[Medium Guide](https://medium.com/@fulton_shaun/how-to-fire-apply-damage-to-the-character-in-unreal-engine-5-edac17bacd47)** • **[YouTube Tutorial](https://www.youtube.com/watch?v=gemx1y3ZRQE)**
 
 This project builds a **fully-featured fire hazard system** in **Unreal Engine 5.5.4**, complete with ignition zones, damage-over-time, lingering burn effects, on-player fire VFX, and a clean ragdoll death sequence.
 The player ignites the instant they touch the flames, continues taking damage even after stepping out, and collapses into a fully simulated ragdoll when health reaches zero.
@@ -184,6 +187,7 @@ Once health reaches zero, the character collapses into a physics-driven ragdoll,
 ---
 
 # 🎥 Project 6 – Triggered Cutscene Camera Sequence System
+**[Medium Guide](https://medium.com/@fulton_shaun/ue5-simple-triggered-cutscene-tutorial-72285f69e6ac)** • **[YouTube Tutorial](https://www.youtube.com/watch?v=-EL6dAxIh58)**
 
 This project creates a **cinematic triggered cutscene** in **Unreal Engine 5.5.4** using a Level Sequence, CineCamera, and Blueprint logic.
 When the player enters a trigger zone, gameplay input locks, the camera switches to a Sequencer-driven shot, and control returns automatically once the cutscene finishes.
